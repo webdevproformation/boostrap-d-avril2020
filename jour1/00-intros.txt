@@ -1,0 +1,57 @@
+Bootstrap = 
+
+Librairie = fichier contient plein de fonctions
+Framework = cadre de travail = la librairie qui répond à 100% de tes besoins 
+API = Application Program Interface => Librairie téléchargé depuis internet
+
+=> qui a créé plusieurs fichiers avec du code source
+=> un fichier qui contient du css => ?? 
+=> un fichier qui contient du js => ?? 
+
+=> aider pour créer rapidement et facilement un site internet
+=> pour utiliser Boostrap => télécharger ces fichiers 
+
+
+
+---------------------------
+
+la librairie change 
+lorsque vous allez choisir une version et cette choisie pour faire votre site elle ne change pas
+
+
+---------------------------
+
+Ne pas confondre une application mobile et un site internet
+responsive design
+
+
+=> application mobile => téléchargée sur le smartphone
+depuis un store
+
+=> C / C++ / Swift / Java / React Native
+=> Flutter une livrairie pour faire des app mobiles
+
+=> site internet adapte pour les smartphones =>
+site internet responsive design => avez besoin d'utiliser
+chrome / firefox pour pouvoir le voir
+
+=> Bootstrap est une librairie pour faire des sites responsive design
+=> HTML CSS JS
+
+------------------------
+
+progressive web app => site internet qui exploite les 
+dernières améliorations des navigateurs =>  Web Storage / WebAssembly / Service workers
+le site internet ressemble beaucoup à une application mobile
+
+
+-------------
+
+sur le bureau de votre ordinateur => créer un dossier 
+bootstrap
+dans ce dossier créer un dossier jour1 
+
+
+
+
+
