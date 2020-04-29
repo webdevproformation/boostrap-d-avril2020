@@ -1,0 +1,8 @@
+.bg-dark-hover:hover {
+    background: green !important;
+}
+
+.table-hover tbody tr:hover {
+    color: #fff;
+    background-color: blue;
+}

@@ -1,0 +1,85 @@
+<!-- 
+    créer un nouveau fichier html - 12-exo.html contenant : 
+    une div avec la class container
+        h2 taille d'un h1 couleur verte lorem 3
+        deux paragraphes avec 5 mots de votre choix
+        hr
+        h2 lorem4
+        tableau : zebré effet de surlignage lorsque l'on passe la souris dessus
+            4lignes (la dernière ligne doit être en fond noir)
+                3 cellules 
+                    lorem2
+        hr  
+        h2 fond rouge texte bleue lorem 4
+        2 paragraphes avec lorem30
+    -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="12-style.css">
+
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- balise sera importante demain class qui est définie chez bootstrap-->
+        <h2 class="text-success h1">Lorem, ipsum dolor.</h2>
+        <!-- p*2>lorem5 -->
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Ipsum iste voluptas eveniet blanditiis.</p>
+        <hr>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <!-- table>tr*4>td*3>lorem2 -->
+        <table class="table table-striped table-hover">
+            <tbody>
+                <tr>
+                    <td>Lorem, ipsum.</td>
+                    <td>Iste, fugiat?</td>
+                    <td>Officia, laborum.</td>
+                </tr>
+                <tr>
+                    <td>Voluptatum, ut.</td>
+                    <td>Sint, dolores!</td>
+                    <td>Nobis, ea!</td>
+                </tr>
+                <tr>
+                    <td>Doloribus, quam?</td>
+                    <td>Minima, dolore!</td>
+                    <td>Nemo, doloremque?</td>
+                </tr>
+
+                <tr class="bg-dark text-light bg-dark-hover">
+                    <td>Asperiores, eligendi.</td>
+                    <td>Rerum, quaerat.</td>
+                    <td>Provident, est?</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!--
+             hr  
+        h2 fond rouge texte bleue lorem 4
+        2 paragraphes avec lorem30
+        -->
+        <hr>
+        <h2 class="bg-danger text-primary">Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit commodi perspiciatis nisi dolorem explicabo
+            aperiam, quia placeat facilis perferendis, est laborum ea eligendi, sequi laboriosam iste ullam molestiae!
+            Consequuntur, veniam?</p>
+        <p>Dolores officia consectetur, non harum voluptatem nemo nihil aut excepturi beatae at magni totam omnis.
+            Distinctio quae, eius sed aliquam sapiente voluptates consequatur harum praesentium neque voluptatibus nihil
+            nam repellat.</p>
+    </div>
+</body>
+
+</html>
