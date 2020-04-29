@@ -1,0 +1,34 @@
+<!--
+    mini rappel sur css 
+    il existe 3 manières d'ajouter du css dans une page web html
+    1 créer un fichier externe .css et de le charger via la balise link
+    2 créer une balise style (de préférence l'écrire dans la balise head de la page) écrire du css dedans
+    3 chaque balise html dispose d'un attribut style
+    => utiliser bootstrap => utiliser la technique n°1
+
+    css => priorité en css 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="03-style.css">
+    <style>
+        /*écrire du css */
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p style="width:200px; color:aqua">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dolore, nobis
+        aspernatur rem mollitia voluptatum expedita animi perspiciatis praesentium commodi deserunt voluptates soluta
+        similique autem sint vero enim ab? Animi.</p>
+</body>
+
+</html>

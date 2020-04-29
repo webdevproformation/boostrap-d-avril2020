@@ -1,0 +1,60 @@
+<!--
+    priorité en css 
+    ça ne dépend pas de bootstrap,
+    priorité est un concept qui est lié à CSS 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: red;
+        }
+
+        p {
+            color: blue;
+            /*c'est cette valeur qui est prioritaire => qui va être appliquée*/
+        }
+
+        .introduction {
+            /* sélecteur qui utilise un attribut d'une balise html */
+            font-size: 20px;
+            /* c'est le sélecteur le plus précis qui est appliqué qui sera prioritaire quelque soit sa position */
+        }
+
+        h1 {
+            /* sélecteur qui utilise la balise html */
+            font-size: 10px;
+        }
+
+        p {
+            color: pink;
+            /*c'est cette valeur qui est prioritaire => qui va être appliquée*/
+        }
+
+        .miniature {
+            border: 1px solid red;
+        }
+
+        img {
+            border: 1px solid grey !important;
+            /*permet de casser l'ordre naturel des priorités
+            déconseillé de l'utiliser !important mais il faut savoir que ça existe 
+            notamment lorsque vous voulez changer une règle css qui utilise elle même le mot clé !important*/
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1 class="introduction">Bonjour</h1>
+
+    <img src="https://via.placeholder.com/400x200" alt="" class="miniature">
+</body>
+
+</html>
