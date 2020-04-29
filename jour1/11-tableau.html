@@ -1,0 +1,141 @@
+<!--
+    11-tableau.html
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- il existe plusieurs balises html pour créer des tableaux en html 
+        table => contenir le tableau
+         tr => table row : ligne / alignement
+            td => table div => cellule du tableau
+            th => table heading => cellule de titre d'un tableau
+            1 ligne de 3 cellule
+
+        table>tr>td*3>lorem1
+    -->
+    <table>
+        <tr>
+            <td>Lorem.</td>
+            <td>Minus?</td>
+            <td>Nesciunt?</td>
+        </tr>
+    </table>
+    <!-- tableau qui a une 2 lignes qui contiennent 2 cellules qui contiennent 1 mot fictif-->
+    <!--  table>tr*2>td*2>lorem1 -->
+    <table>
+        <tr>
+            <td class="bg-primary">Lorem.</td>
+            <td class="bg-success">Vitae.</td>
+        </tr>
+        <tr>
+            <td class="bg-success">Dolorum!</td>
+            <td class="bg-primary">Necessitatibus?</td>
+        </tr>
+    </table>
+    <!-- dans la même page 
+    créer un tableau de 4 lignes contiennent 3 cellules qui contiennent 1 mot fictif -->
+
+    <!-- table>tr*4>td*3>lorem1 -->
+    <table class="table table-bordered">
+        <tr>
+            <td>Lorem.</td>
+            <td>Iusto!</td>
+            <td>Voluptas.</td>
+        </tr>
+        <tr>
+            <td>Sunt.</td>
+            <td>Illo.</td>
+            <td>Enim.</td>
+        </tr>
+        <tr>
+            <td>Consequatur!</td>
+            <td>Nihil?</td>
+            <td>Commodi?</td>
+        </tr>
+        <tr>
+            <td>Officiis.</td>
+            <td>Obcaecati?</td>
+            <td>Maiores.</td>
+        </tr>
+    </table>
+
+    <!-- table>tr*2>td*2>lorem1 -->
+    <table class="table">
+        <tr class="bg-dark text-light">
+            <td>Lorem.</td>
+            <td>Error.</td>
+        </tr>
+        <tr>
+            <td class="bg-success text-light">Ipsum?</td>
+            <td class="bg-primary text-light h3">200€</td>
+        </tr>
+    </table>
+
+    <!--  table>(tr>th*2>lorem1)+tr*3>td*2>lorem1 -->
+    <h1>titre</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Lorem.</th>
+                <th>Voluptatem!</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- zone de body du tableau qui fonction avec la class bootstrap table-striped fond de couleur toutes les deux lignes tr  -->
+            <tr>
+                <td>Lorem.</td>
+                <td>At?</td>
+            </tr>
+            <tr>
+                <td>Eligendi!</td>
+                <td>Facilis.</td>
+            </tr>
+            <tr>
+                <td>Magnam!</td>
+                <td>Laudantium!</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <!-- https://getbootstrap.com/docs/4.4/content/tables/ 
+        content > Table
+
+    -->
+
+    <!-- grille de bootstrap -->
+    <div class="border border-primary col-6 mx-auto">
+        <table class="table table-dark">
+            <tr class="bg-light text-dark">
+                <td>Lorem.</td>
+                <td>Voluptatum.</td>
+            </tr>
+            <tr>
+                <td>Sapiente?</td>
+                <td>Distinctio?</td>
+            </tr>
+            <tr>
+                <td>Delectus?</td>
+                <td>Impedit.</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>
