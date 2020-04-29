@@ -1,0 +1,96 @@
+<!-- 
+    07-typographie.html
+    => récupérer le starter template > https://getbootstrap.com/ > bouton get started > starter template
+-->
+
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- 
+        permettre de regarder la documentation 
+        en général lorsque l'on écrit du css => taille des textes et la couleur des textes 
+        font-size : 20px
+        color : blue
+    -->
+
+    <h1 class="h2">Titre principal</h1>
+    <h2>titre secondaire</h2>
+    <h3 class="h1">sous section</h3>
+
+    <p class="text-success">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur consectetur, quisquam,
+        ex exercitationem architecto explicabo distinctio recusandae accusamus sapiente molestiae illum itaque
+        voluptatum, tempore suscipit nisi quo odit aliquid eos.</p>
+    <p class="text-danger">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tempora ab tempore iusto accusamus! Voluptas
+        sapiente cupiditate debitis. A minima mollitia rerum. Labore eaque quia velit tempora quod animi perspiciatis?
+    </p>
+
+    <p class="text-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, recusandae corporis? Maiores ipsum, pariatur veniam
+        asperiores eius velit doloribus voluptatum libero, aperiam vel, laboriosam dolorum reiciendis voluptatem
+        mollitia accusantium. Hic!
+    </p>
+    <p class="text-warning">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit temporibus quas laborum architecto reiciendis
+        iste incidunt at sed eveniet quod earum ratione maxime sequi delectus minima, nulla unde accusantium neque.
+    </p>
+
+    <!-- h1 qui a un taille de h3 et qui est de couleur verte-->
+    <h1 class="h1 text-success">un peu de texte</h1>
+    <!-- 
+        les p et h et li ... tous les éléments html ont une taille définit par
+    -->
+    <p class="h1"> texte important</p>
+
+    <!-- nommé leur class de manière à ce qu'elles soient facile à retenir -->
+    <!--  retrouver les class que je suis en train de vous faire utiliser dans la documentation officielle
+        https://getbootstrap.com > Documentation > Content > Typography
+    -->
+
+    <p>Lorem ipsum dolor sit amet consectetur <span class="text-danger h2">adipisicing elit</span>. Illo maiores
+        voluptate
+        eius, consequatur,
+        unde velit
+        assumenda commodi possimus perspiciatis consequuntur ullam blanditiis. Perspiciatis cupiditate hic doloremque.
+        Sit natus veritatis ad?</p>
+
+    <!-- couleur de texte Utilities > colors 
+        => en général un site internet => utilise 10 couleurs par défaut 
+        chaque couleur va jouer un rôle par rapport à ton design 
+        -->
+
+    <!-- écrire un pagraphe fond rouge 95% -->
+    <p class="bg-danger text-success h3"> Lorem ipsum dolor sit amet.</p>
+
+    <!-- ul>li*5>lorem3 -->
+    <ul>
+        <li class="h2 text-primary bg-warning">Lorem, ipsum dolor.</li>
+        <!-- taille de h2 , text en couleur bleue et fond orange -->
+        <li><span class="bg-dark text-light">Voluptatibus, voluptate exercitationem.</span></li>
+        <!-- fond noir et un texte blanc-->
+        <li class="bg-primary text-light">Facilis, molestiae accusamus.</li>
+        <!-- fond soit bleu et le text blanc-->
+        <li class="bg-warning text-danger h3">Consequuntur, quo nemo.</li>
+        <!-- gérer la largeur des éléments en block => grille display: flex -->
+        <li>Consectetur, nisi eos!</li>
+    </ul>
+
+
+</body>
+
+</html>
