@@ -1,0 +1,6 @@
+/*priorité surcharge en css pour modifier les quelques règles qui ne serait pas conforme à mon design */
+
+
+.text-warning{
+    color:pink !important;
+}
