@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!-- 
+     Layout (disposition / mis en page)
+        tout design que l'on va réaliser via bootstrap commence par un balise div ayant la class container
+
+        table-hover
+    -->
+    <div class="container">
+        <!-- 
+            1 centrer votre design dans la page web le h1
+            ce n'est pas le texte dans le h1
+            2 responsive design => si jamais je réduis la largeur de la taille de mon écran
+            En fonction de la largeur de l'écran l'élément qui a la class .container n'a pas la même largeur
+            adapter la largeur des élements (design) en fonction des dimensions de l'écran qui va lire le site internet 
+
+        -->
+        <h1 class="bg-success text-light">Découverte grid system</h1>
+
+        <!-- Documentation > Layout > Grid -->
+        <!-- 
+            mettre l'un a à côté de l'autre 3 éléments 
+
+            <p> => 33.33% 
+            <img> => 33.33% 
+            <p> => 33.33% 
+            en 2011 => GENIAL  => facteur explique le succès de Bootstrap
+        -->
+        <div class="row">
+            <!-- ligne -->
+            <p class="col bg-warning">Lorem ipsum dolor sit.</p>
+            <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
+            <p class="col bg-warning">Lorem ipsum dolor sit.</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
