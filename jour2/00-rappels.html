@@ -1,0 +1,76 @@
+<!--
+
+    Bootstrap => l'esprit de la librairie est la suite :
+
+    classe qui veulent dire quelquechose => facile à se rappeler 
+
+    primary / danger / warning / info ...
+    préfix text / bg / btn / border / table
+
+    .h1 .h2
+
+    possibilité de combiner plusieurs classe sur une balise html pour avoir l'effet escompté
+
+    pour les tables 
+
+    table 
+        3 zones possibles thead / tbody / tfoot
+            ligne => tr table row 
+                cellule => td cellule de base / th cellule de heading de titre
+    
+    https://developer.mozilla.org/fr/docs/Web/HTML = Larousse / Petit Robert pour le dév web 
+
+    mettre en forme un tableau 
+
+    quelques classes mises à dispo par Bootstrap
+
+    table .table => trait sur chaque ligne (tr) + la tableau prendre la largeur du parent
+    table .table + .table-striped  + tbody => tableau zébré
+    table .table + .table-bordered => tableau quadrillé
+    table .table + .table-hover + tbody  => tableau effet de survol (6ans => version 3 de bootstrap => utilisez tbody )
+    table .table + .table-primary 
+    dans le site officiel de Bootstrap Documentation > Content > Tables 
+
+-->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <h1>Bonjour</h1>
+    <table class="table table-striped table-bordered table-hover table-sm">
+        <tbody>
+            <tr>
+                <td>Lorem.</td>
+                <td>Ipsa?</td>
+            </tr>
+            <tr>
+                <td>Facilis.</td>
+                <td>Reprehenderit!</td>
+            </tr>
+            <tr>
+                <td>Facilis.</td>
+                <td>Reprehenderit!</td>
+            </tr>
+            <tr>
+                <td>Facilis.</td>
+                <td>Reprehenderit!</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
