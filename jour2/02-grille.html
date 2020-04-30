@@ -42,11 +42,85 @@
         -->
         <div class="row">
             <!-- ligne -->
-            <p class="col bg-warning">Lorem ipsum dolor sit.</p>
+            <p class="col bg-warning" style="margin: 0;">Lorem ipsum dolor sit.</p>
             <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
-            <p class="col bg-warning">Lorem ipsum dolor sit.</p>
+            <p class="col bg-warning" style="margin: 0;">Lorem ipsum dolor sit.</p>
         </div>
 
+        <!-- 
+            dès que vous voulez aligner des éléments dans une page web , vous les entourez d'une balise div avec la class row 
+        -->
+        <div class="row">
+            <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
+            <p class="col">Lorem, ipsum.</p>
+            <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
+            <p class="col">Lorem, ipsum.</p>
+            <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
+            <p class="col">Lorem, ipsum.</p>
+            <img src="https://via.placeholder.com/300x300" alt="" class="col bg-danger">
+            <p class="col">Lorem, ipsum.</p>
+            <p class="col">Lorem, ipsum.</p>
+            <p class="col">Lorem, ipsum.</p>
+            <p class="col">Lorem, ipsum.</p>
+            <p class="col">Lorem, ipsum.</p>
+        </div>
+
+        <!-- dans une row au maximum on peut mettre 12 colonnes-->
+
+        <div class="row">
+            <p class="col-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, consectetur voluptate
+                quibusdam veritatis reiciendis obcaecati error dolorem rerum ut quia. Reiciendis, eaque eligendi et a
+                magni atque. Corrupti, deserunt aliquam!</p>
+            <img src="https://via.placeholder.com/200x150" alt="" class="col-4">
+            <!-- col-8 + col-4 = col-12 -->
+        </div>
+
+        <!-- grille 4 colonnes 
+            je sais que au maximum j'ai 12 colonnes dans une lignes
+            si je veux faire 4 colonnes => 12 / 4  => col-3
+        -->
+
+
+        <div class="row">
+            <!--  article.col-3*4>lorem4 -->
+            <article class="col-3">Lorem ipsum dolor sit.</article>
+            <article class="col-3">Maxime velit obcaecati eligendi.</article>
+            <article class="col-3">Eligendi laudantium unde dolores.</article>
+            <article class="col-3">Perferendis eum animi porro?</article>
+        </div>
+
+        <!-- 
+            grille 2 colonnes et chaque colonne représente 50%
+            12 / 2 = col-6
+        -->
+        <div class="row">
+            <!--  p.col-6*2>lorem5 -->
+            <p class="col-6 bg-danger">Lorem ipsum dolor sit amet.</p>
+            <p class="col-6 bg-secondary">Recusandae corrupti dignissimos quidem est.</p>
+        </div>
+
+        <div class="row" style="border:2px solid yellow">
+            <p class="col-6 bg-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia suscipit quia
+                eius beatae unde odio ducimus, delectus dignissimos adipisci optio velit sequi accusantium, aspernatur
+                vel quaerat! Dolor tempore minus quas!</p>
+            <p class="col-4 bg-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia suscipit quia
+                eius beatae unde odio ducimus, delectus dignissimos adipisci optio velit sequi accusantium, aspernatur
+                vel quaerat! Dolor tempore minus quas!</p>
+            <p class="col-2 bg-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia suscipit quia
+                eius beatae unde odio ducimus, delectus dignissimos adipisci optio velit sequi accusantium, aspernatur
+                vel quaerat! Dolor tempore minus quas!</p>
+            <!-- étant donné que la somme des colonnes précédente = 12 alors la cellule suivante revient à la ligne -->
+            <p class="col-2 bg-danger">Lorem, ipsum dolor.</p>
+            <p class="col-7 bg-primary">Lorem, ipsum dolor.</p>
+        </div>
+
+        <div class="row">
+            <p class="col-2 bg-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia suscipit quia
+                eius beatae unde odio ducimus, delectus dignissimos adipisci optio velit sequi accusantium, aspernatur
+                vel quaerat! Dolor tempore minus quas!</p>
+            <!-- étant donné que la somme des colonnes précédente = 12 alors la cellule suivante revient à la ligne -->
+            <p class="col-2 bg-danger">Lorem, ipsum dolor.</p>
+        </div>
     </div>
 
 
