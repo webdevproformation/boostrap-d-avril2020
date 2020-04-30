@@ -1,3 +1,70 @@
 <!-- 
     06-spacing.html
 -->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <!-- 
+    le système de grille
+    toujours emballer votre design dans une balise ayant la class container
+
+    balise div / header / footer / section class row 
+        contenir des colonnes 
+            chaque colonne va dispose d'une class col-chiffre 
+            somme des colonnes = 12 
+            si on dépasse 12 alors revient à la ligne
+                dans la colonne => image / tableau / menu ....
+
+    => facilement disposer des éléments (balises html) horizontalement
+    => si on veut ajouter un peu d'espace verticalement
+    => Documentation > Utilities > Spacing 
+-->
+    <div class="container">
+        <div class="row border border-success">
+            <!--  img[src="https://via.placeholder.com/100"]*3 -->
+            <img src="https://via.placeholder.com/100" alt="" class="mr-5" style="align-self: flex-start;">
+            <!-- margin right 0 et 5-->
+            <img src="https://via.placeholder.com/100" alt="" class="mt-2"> <!-- margin top 0 et 5-->
+            <img src="https://via.placeholder.com/100" alt="" class="ml-3">
+            <!-- margin left 0 et 5-->
+            <img src="https://via.placeholder.com/100" alt="" class="mb-3"> <!-- margin bottom 0 et 5-->
+        </div>
+
+        <div class="row border border-warning">
+            <!--  img[src="https://via.placeholder.com/100"]*3 -->
+            <img src="https://via.placeholder.com/100" alt="" class="mx-5"> <!-- margin left right 0 et 5-->
+            <img src="https://via.placeholder.com/100" alt="" class="my-4"> <!-- margin top bottom 0 et 5-->
+        </div>
+
+        <div class="row border border-warning">
+            <!--  img[src="https://via.placeholder.com/100"]*3 -->
+            <img src="https://via.placeholder.com/100" alt="" class="mx-auto"> <!-- centrer en largeur -->
+        </div>
+
+        <div class="row border border-info" style="height:200px">
+            <!--  img[src="https://via.placeholder.com/100"]*3 -->
+            <img src="https://via.placeholder.com/100" alt="" class="m-auto"> <!-- centrer en largeur et hauteur-->
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
