@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <!--
+        div container
+
+        zone1 = ligne = row
+            col largeur de 2 qui contient image ovale
+            col largeur 10 contient une liste non ordonnées de 5 elements contenant un lien content 1 mot fictif
+
+    -->
+
+    <div class="container">
+        <header class="row">
+            <div class="col-2">
+                <img src="https://via.placeholder.com/100x80" alt="" class="rounded-circle">
+            </div>
+            <div class="col-10">
+                <!-- ul>li*5>a[href="#"]>lorem1 -->
+                <ul class="row pt-4">
+                    <!-- padding top 4-->
+                    <li class="col-2"><a href="#">Lorem.</a></li>
+                    <li class="col-2"><a href="#">A.</a></li>
+                    <li class="col-2"><a href="#">Dolore.</a></li>
+                    <li class="col-2"><a href="#">Dolorum.</a></li>
+                    <li class="col-2"><a href="#">Harum!</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!--
+             zone2 = ligne
+            col largeur de 6 contient un tableau de 3 lignes et 3 cellules avec 1 mot fictif
+                            la premier ligne du tableau va avoir un fond noir et texte blanc
+            
+            col largeur 6 contient article
+                            h2 taille de h1 contient 3 mots
+                            p qui contient 40 mots fictifs couleur de texte bleu
+
+        -->
+        <section class="row">
+            <!-- div.col-6*2 -->
+            <div class="col-6">
+                <!-- table>tr*3>td*3>lorem1 -->
+                <table class="table">
+                    <tr class="bg-dark text-white">
+                        <td>Lorem.</td>
+                        <td>Temporibus.</td>
+                        <td>Deserunt!</td>
+                    </tr>
+                    <tr>
+                        <td>Excepturi.</td>
+                        <td>Temporibus?</td>
+                        <td>Provident.</td>
+                    </tr>
+                    <tr>
+                        <td>Aliquam?</td>
+                        <td>Iusto!</td>
+                        <td>Voluptates.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-6">
+                <article>
+                    <h2 class="h1">Lorem, ipsum dolor.</h2>
+                    <!-- p.text-primary>lorem40 -->
+                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, ullam
+                        obcaecati. Quidem, velit ut necessitatibus est reiciendis dolorem distinctio! Autem mollitia,
+                        doloribus id reprehenderit sit, cum blanditiis doloremque distinctio eaque maxime iure nihil
+                        magni reiciendis iste ad minus expedita animi.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <footer class="row">
+            <div class=" col-5 bg-success">
+                <img src="https://via.placeholder.com/100x80" alt="" class="rounded-circle ">
+            </div>
+            <div class="col-6 ml-auto">
+                <p class="bg-success">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id temporibus, laborum
+                    itaque blanditiis
+                    odit
+                    sapiente assumenda, adipisci omnis cumque provident quo repudiandae facere molestiae eos eligendi
+                    error,
+                    doloribus quis iure?</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
