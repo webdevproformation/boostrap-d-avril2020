@@ -1,0 +1,104 @@
+<!-- 
+    01-exo.html
+
+    1 dans cette page html , installé la librairie Bootstrap
+    2 cette page contient le html suivant
+
+    div class container contient
+        h1 ayant 5 mots de couleur rouge sur fond vert
+        p ayant 10 mots de couleur bleue 
+        trait de séparation
+        h1 ayant 2 mot de couleur verte
+        4 images avec une bordure blanche (liseret) et des arrondis
+        trait de séparation
+        un tableau zebré et quadrille avec un effet au survol de la souris
+            3 lignes (la première ligne doit être en fond noir avec un texte de couleur blanche)
+                4 cellules
+                    2 mot fictifs 
+
+-->
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 
+             h1 ayant 5 mots de couleur rouge sur fond vert
+            p ayant 10 mots de couleur bleue 
+            trait de séparation
+        -->
+        <h1 class="text-danger bg-success">Lorem ipsum dolor sit amet.</h1>
+        <!-- p.text-primary>lorem10 -->
+        <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, accusamus!</p>
+        <hr>
+        <!-- 
+            h1 ayant 2 mot de couleur verte
+            4 images avec une bordure blanche (liseret) et des arrondis
+            trait de séparation
+        -->
+        <h1 class="text-success">Lorem, ipsum.</h1>
+        <!--  img[src="https://via.placeholder.com/150"].img-thumbnail*4 -->
+        <img src="https://via.placeholder.com/150" alt="" class="img-thumbnail">
+        <img src="https://via.placeholder.com/150" alt="" class="img-thumbnail">
+        <img src="https://via.placeholder.com/150" alt="" class="img-thumbnail">
+        <img src="https://via.placeholder.com/150" alt="" class="img-thumbnail">
+        <hr>
+
+        <!-- 
+            un tableau zebré et quadrille avec un effet au survol de la souris
+            3 lignes (la première ligne doit être en fond noir avec un texte de couleur blanche)
+                4 cellules
+                    2 mot fictifs 
+            
+              table>tbody>tr*3>td*4>lorem2
+        -->
+
+        <table class="table table-bordered table-striped table-hover">
+            <tbody>
+                <tr class="bg-dark text-light">
+                    <td>Lorem, ipsum.</td>
+                    <td>Sunt, quae!</td>
+                    <td>Ducimus, cumque.</td>
+                    <td>Pariatur, explicabo.</td>
+                </tr>
+                <tr>
+                    <td>Earum, aliquid.</td>
+                    <td>Aliquam, minus.</td>
+                    <td>Dicta, ad.</td>
+                    <td>Et, earum!</td>
+                </tr>
+                <tr>
+                    <td>Architecto, accusamus?</td>
+                    <td>Ducimus, nihil!</td>
+                    <td>Aliquam, modi.</td>
+                    <td>Nisi, commodi.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
+<!-- 
+    système de grille de Bootstrap => génial facilier la mise en page des sites 
+    plus facilement disposer les différentes zones d'un design dans un site internet
+    dès 2011 
+    AVANT display: flex; 
+
+    facilier énormément la vie pour faire des sites responsive design
+
+    => système de grille de bootstrap 
+    02-grille.html
+-->
